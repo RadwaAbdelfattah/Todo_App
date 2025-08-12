@@ -47,8 +47,8 @@ python todo.py list
 python todo.py done 1
 ```
 
-#### Remove a Task
+#### Delete a Task
 
 ```bash
-python todo.py remove 1
+python todo.py Delete 2
 ```
