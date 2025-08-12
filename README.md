@@ -1,6 +1,9 @@
 # Todo App
 
-A simple command line Todo application to manage your tasks.
+I chose option 2 - A simple command line To-do application to manage your tasks.
+I used python, argparse for commands, and json for storing tasks in a file.
+
+Below is the steps to clone the repository on windows and explanation of the app's functionalities.
 
 ## Getting Started
 
@@ -12,7 +15,7 @@ A simple command line Todo application to manage your tasks.
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/Todo_App.git
+git clone https://github.com/RadwaAbdelfattah/Todo_App.git
 cd Todo_App
 ```
 
@@ -27,7 +30,9 @@ pip install -r requirements.txt
 #### Add a Task
 
 ```bash
-python todo.py add "Buy groceries"
+python todo.py add "Buy groceries" --priority high
+python todo.py add "Go to the gym" --priority medium
+python todo.py add "Fold laundry" --priority low
 ```
 
 #### List Tasks
