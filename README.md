@@ -12,19 +12,13 @@ Below is the steps to clone the repository on windows and explanation of the app
 ### Prerequisites
 
 - [Git](https://git-scm.com/)
-- [Python 3.12](https://www.python.org/)
+- [Python >= 3.4](https://www.python.org/)
 
 ### Clone the Repository
 
 ```bash
 git clone https://github.com/RadwaAbdelfattah/Todo_App.git
 cd Todo_App
-```
-
-### Install Dependencies
-
-```bash
-pip install -r requirements.txt
 ```
 
 ### Usage
